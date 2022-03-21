@@ -1,0 +1,213 @@
+*{
+    /* margin: 0;
+    padding: 0; */
+    list-style: none;
+    
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+/* --------------HEADERS-------------------- */
+header{
+    display: grid;
+    grid-template-columns: 2fr 2fr 1fr;
+}
+ul{
+    cursor: pointer;
+    display: flex;
+    gap: 10%;
+}
+.btn-hi{
+    cursor: pointer;
+   background: none;
+    width: 100px;
+    height: 50px;
+    text-align: center;
+    
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-decoration: none;
+    border: 1px solid purple;
+    border-radius: 50px;
+}
+.btn-hi:hover{
+    background-color: rgb(190, 151, 226);
+}
+#img1{
+    width: 70px;
+    height: 70px;
+    margin-left: 50px;
+}
+ul li{
+    font-size: larger;
+    font-weight: bold;
+}
+/* --------------HEADERS-------------------- */
+
+
+/* --------------section1-------------------- */
+.sec01{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+#sub01{
+font-size: 2.5em;
+}
+#sub02{
+    font-size: 1.5em;
+}
+#img2{
+    margin-top: 50px;
+    width: 300px;
+    height: 300px;
+}
+#img3{
+    margin-top: 50px;
+    width: 600px;
+    height:300px;
+}
+
+/* --------------section1-------------------- */
+
+/* --------------section2-------------------- */
+.sec02{
+    position: relative;
+    background-color: rgba(120, 1, 255, 0.959);
+    height: 900px;
+    margin-left: 50px;
+    margin-right:50px ;
+}
+.text02{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    color: white
+}
+#sub03{
+    margin-top: 150px;
+    font-size: 2.2em;
+}
+#sub04{
+    margin-top: -10px;
+    font-size: 1.4em;
+}
+
+.whiteboard{
+    position: relative;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-left: 100px;
+    margin-right:100px ;
+    margin-top: 10px;
+    height: 700px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    /* display: flex;
+    flex-direction: row;
+    justify-content: space-between  ; */
+}
+.skill{
+
+text-align: center;align-items: center;
+    gap: 50px;
+    display:flex;
+    flex-direction: column;
+    background-color: ;
+}
+.skill-01{
+    margin-left: 50px;
+    
+
+}
+.skill-02{
+    gap: 50px;;
+    display:flex;
+    flex-direction: column;
+border: 1px solid black;
+margin-top: 30px;
+margin-bottom: 50px;
+border-radius: 12px;
+background-color: rgb(244, 232, 255);
+
+}
+.skill-03{
+    margin-right: 50px;
+}
+
+/* --------------section2-------------------- */
+
+/* --------------section3-------------------- */
+
+.sec03{
+    margin-top: 300px;
+}
+.topic{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+.white{
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: white;
+    width: 300px;
+    height: 250px;
+}
+.black{
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: black;
+    width: 300px;
+    height: 250px;
+}
+#img4{
+    margin-left: 60px;
+    margin-top: 35px;
+}
+
+.images01{
+    margin-left: 200px;
+    margin-right: 200px;
+    display: grid;
+    grid-template-columns: repeat(3,2fr);
+    margin-bottom: 50px;
+    
+}
+
+.images02{
+    margin-left: 200px;
+    margin-right: 200px;
+    display: grid;
+    grid-template-columns: repeat(3,2fr);
+    
+}
+/* --------------section3-------------------- */
+
+.btn{
+    margin-top: 30px;
+    margin-left: 45%;
+    margin-bottom: 30px;
+background-color: none;
+border: 1px solid purple;
+color: black;
+padding: 20px 34px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 20px;
+cursor: pointer;
+border-radius: 40px;
+}
+.btn:hover{
+    background-color: rgb(190, 151, 226);
+}
